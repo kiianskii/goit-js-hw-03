@@ -1,7 +1,6 @@
 
 function slugify(title) {
-    const titleSlug = title.toLowerCase().replaceAll(" ", "-");
-    return titleSlug;
+    return title.toLowerCase().replaceAll(" ", "-");
 }
 
 
